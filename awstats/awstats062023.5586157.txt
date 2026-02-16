@@ -1,0 +1,416 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 202306 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2535                
+POS_VISITOR 8172                
+POS_DAY 12059               
+POS_DOMAIN 3262                
+POS_LOGIN 3493                
+POS_ROBOT 3648                
+POS_WORMS 3929                
+POS_EMAILSENDER 4060                
+POS_EMAILRECEIVER 4203                
+POS_SESSION 12144               
+POS_SIDER 12313               
+POS_FILETYPES 4338                
+POS_OS 4557                
+POS_BROWSER 4635                
+POS_SCREENSIZE 4786                
+POS_UNKNOWNREFERER 4860                
+POS_UNKNOWNREFERERBROWSER 5230                
+POS_ORIGIN 5559                
+POS_SEREFERRALS 5696                
+POS_PAGEREFS 5863                
+POS_SEARCHWORDS 6063                
+POS_KEYWORDS 6215                
+POS_MISC 2199                
+POS_ERRORS 6274                
+POS_CLUSTER 3349                
+POS_SIDER_404 6362                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230701000204 1 0 7708788559291
+FirstTime 20230630000447
+LastTime 20230630232616
+LastUpdate 20230702042819 1 0 0 0 0
+TotalVisits 87                  
+TotalUnique 86                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 102                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 23 977844 7 18 627201
+1 3 4 136651 6 8 1133817
+2 3 28 570901 8 9 79740
+3 0 0 0 3 3 84177
+4 2 2 55025 7 7 2365680
+5 6 10 508374 3 19 434905
+6 1 2 62986 12 22 548570
+7 4 4 80745 0 0 0
+8 1 1 44481 10 28 407416
+9 5 7 1565925 10 28 1125023
+10 11 39 712979 9 10 156523
+11 6 49 1926507 5 8 331178
+12 1 1 25401 4 6 391576
+13 4 52 2094047 8 8 87614
+14 11 79 2266410 4 7 148159
+15 4 35 836540 2 2 28620
+16 8 49 2876937 3 7 203375
+17 9 9 2016827 2 3 1725
+18 1 1 28889 5 8 45256
+19 1 1 28889 2 2 294594
+20 17 288 13788052 9 10 126011
+21 3 5 99617 7 10 72511
+22 3 3 53326 3 3 570425
+23 4 4 51225 8 15 1513559
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 114 696 30808578
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+\wbot[\/\-] 69 4102734 20230630234956 0
+spider 45 1213888 20230630235726 0
+googlebot 36 4988753 20230630231622 0
+seznambot 5 422830 20230630230707 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+php 15 1689 0 0
+css 62 1070239 0 0
+png 173 525443 0 0
+html 87 2577406 0 0
+js 172 4356230 0 0
+jpg 132 14346077 0 0
+pdf 11 6708245 0 0
+Unknown 1 6065 0 0
+gif 43 1217184 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 4
+macosx 71
+winnt 527
+Unknown 6
+linux 92
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 8
+msie8.0 1
+firefox13.0.1 1
+mozilla 5
+netscape5.0 1
+firefox72.0 8
+firefox114.0 61
+Unknown 6
+safari 613
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_DuckDuckGo-Favicons-Bot/1.0;__http://duckduckgo.com) 20230630103510
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230630164708
+SEMrushBot 20230630171847
+Go-http-client/2.0 20230630180616
+okhttp/3.14.4 20230630211504
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+SEMrushBot 20230630171847
+Go-http-client/2.0 20230630180616
+Dalvik/2.1.0_(Linux;_U;_Android_9.0;_ZTE_BA520_Build/MRA58K) 20230630173638
+okhttp/3.14.4 20230630211504
+Dalvik/2.1.0_(Linux;_U;_Android_9;_SM-G950U_Build/PPR1.180610.011) 20230630164446
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 51 64
+From1 0 0
+From2 14 17
+From3 2 2
+From4 47 613
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 13 16
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://www.hoovers.com 1 1
+https://www.bing.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 86 49450
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 28
+/assets/css/site_global.css 3 https://www.maxouttech.com/assets/extreme-sensor---wireless.html
+/robots.txt 23 -
+/products/kits/ce-rp-kit.html 1 -
+/recessed-doorwindow-sensor---wireless.html&sa=U&ved=2ahUKEwi7gebuoez_AhWWlIkEHb9vAIwQFnoFCKUBEAE&usg=AOvVaw29vYMo2lZeDKXilrKLMOcJ 1 -
+/images/1%20pcu-ids%20-%20copy122x184.jpg 1 -
+/testSite/products/vbs/datasheets/Ce-RP.pdf 1 -
+/.well-known/traffic-advice 3 -
+/assets/css/extreme-sensor---wireless.css 1 https://www.maxouttech.com/assets/extreme-sensor---wireless.html
+/.well-known/ai.txt 1 -
+/assets/css/news.css 1 https://www.maxouttech.com/assets/news.html
+/assets/css/wireless-security.css 1 https://www.maxouttech.com/assets/wireless-security.html
+/.well-known/apple-app-site-association 1 -
+/assets/css/master_b-master.css 1 https://www.maxouttech.com/assets/extreme-sensor---wireless.html
+/products/ids/datasheets/E-CB.pdf 1 -
+/recessed-doorwindow-sensor---wireless.html&sa=U&ved=2ahUKEwjcuvWtoez_AhX6jIkEHdvKB1AQFnoFCPQBEAE&usg=AOvVaw1egB9jCt5agukLOWWP3EmC 1 -
+/null 8 https://www.cinchsystems.com/
+/login/ 1 -
+/news.html 1 https://www.cinchsystems.com/about-us.html
+/door-gate-controls.html 1 -
+/assets/css/master_a-master.css 2 https://www.maxouttech.com/assets/extreme-sensor---wireless.html
+/assets/scripts/require.js 4 https://www.maxouttech.com/assets/extreme-sensor---wireless.html
+/xmlrpc.php 10 -
+/wp-login.php 11 -
+/apple-app-site-association 1 -
+/vbs_control-panel.html 1 -
+/.well-known/openpgpkey/policy 1 -
+/ads.txt 3 -
+/ai.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 102
+37.139.53.36 6 6 104498 20230630053425
+1.169.115.196 6 6 78576 20230630100415
+70.184.6.200 3 22 1369135 20230630115154
+58.211.23.183 2 2 56090 20230630173638
+18.236.204.122 2 2 56090 20230630143621
+63.161.78.28 2 2 26028 20230630072542
+8.222.250.89 2 2 26192 20230630103641
+60.169.114.65 2 2 25281 20230630201459
+144.126.131.216 2 2 26028 20230630052435
+51.15.252.88 2 2 26192 20230630000451
+75.101.222.195 1 1 28889 20230630015525
+174.230.196.98 1 1 902045 20230630164446
+74.110.126.247 1 1 409582 20230630094726
+40.94.36.28 1 24 383988 20230630202713
+94.247.172.129 1 1 28889 20230630072027
+114.119.133.12 1 1 17359 20230630104320
+87.236.176.18 1 1 28045 20230630164708
+34.220.74.187 1 1 28889 20230630163913
+20.191.45.212 1 1 28889 20230630051456
+40.88.21.235 1 1 28059 20230630103510
+5.171.202.244 0 28 553940 
+173.54.180.197 1 1 902045 20230630174637
+54.148.237.91 1 1 28045 20230630142509
+40.94.36.39 0 18 1450911 
+85.208.98.17 1 1 28045 20230630171847
+72.14.201.21 1 1 44467 20230630174659
+195.2.75.171 1 1 25146 20230630133153
+209.222.82.140 1 1 28045 20230630133843
+114.119.133.26 1 1 290839 20230630202601
+8.218.18.29 0 1 13543 
+114.119.142.247 1 1 56602 20230630014838
+34.105.37.64 1 1 902045 20230630201601
+190.104.120.32 1 26 520278 20230630201159
+165.22.197.149 1 1 18629 20230630012627
+181.209.195.184 1 26 520278 20230630140553
+104.224.120.123 1 1 154438 20230630092619
+103.35.105.43 0 1 12864 
+40.94.35.15 0 8 1174705 
+64.201.70.67 1 18 899403 20230630001400
+5.78.44.57 1 1 28889 20230630193538
+193.186.4.21 1 1 44467 20230630150540
+40.94.31.24 0 4 715696 
+72.14.201.22 1 1 44481 20230630083528
+115.219.3.248 2 2 25281 20230630140444
+20.94.247.111 1 42 1834899 20230630203005
+14.29.176.211 1 1 28889 20230630134722
+109.73.38.156 2 2 53191 20230630203129
+8.218.80.185 1 1 28889 20230630042919
+18.237.130.81 1 1 28889 20230630163842
+134.122.44.126 1 1 38913 20230630152228
+198.2.208.146 0 2 42964 
+35.165.185.70 1 1 28045 20230630225758
+114.119.133.53 1 1 38208 20230630061633
+65.154.226.170 1 1 6065 20230630111455
+40.94.31.43 1 37 1030592 20230630202656
+74.83.218.110 1 1 135190 20230630150519
+34.145.165.227 1 1 902045 20230630201659
+40.94.25.70 1 24 383988 20230630202720
+61.147.15.67 1 1 28045 20230630170529
+134.122.106.34 0 3 388344 
+40.94.25.38 0 5 804307 
+65.154.226.167 1 1 40140 20230630111443
+174.203.68.233 1 1 902045 20230630172414
+114.119.136.113 1 1 909107 20230630095151
+169.252.4.23 1 27 538714 20230630100354
+68.194.252.9 1 19 1032303 20230630142643
+20.119.242.15 1 42 1834899 20230630202920
+157.245.64.106 1 1 25828 20230630074442
+137.184.189.106 1 1 25401 20230630122826
+208.100.26.243 2 2 56090 20230630202857
+174.138.50.190 1 1 27029 20230630210213
+44.200.167.202 2 2 50789 20230630024302
+169.253.162.3 1 25 511167 20230630111437
+40.94.35.79 1 34 660194 20230630202702
+44.202.118.117 1 1 28889 20230630180616
+112.124.54.155 0 1 6065 
+114.119.135.186 1 1 44460 20230630092206
+104.212.59.56 1 42 1834899 20230630135302
+8.218.163.14 1 1 28045 20230630211503
+35.92.207.228 1 1 28045 20230630141905
+171.255.248.85 2 2 25281 20230630225453
+154.47.25.146 1 42 1834899 20230630165127
+180.117.170.75 2 2 25281 20230630165836
+34.237.40.252 0 2 35211 
+161.35.27.185 1 1 26136 20230630043216
+84.198.66.61 1 26 520112 20230630023632
+91.218.179.124 2 2 26028 20230630232149
+104.252.131.80 2 2 25197 20230630232616
+61.147.15.65 2 2 56090 20230630170642
+35.93.142.105 1 1 28045 20230630141819
+129.211.163.247 0 1 10166 
+40.94.31.27 0 1 88611 
+93.38.24.184 1 26 520278 20230630144257
+216.24.45.24 0 6 166902 
+35.175.107.123 1 1 21252 20230630093325
+85.193.95.82 1 4 64030 20230630150212
+54.184.76.139 1 1 28889 20230630163841
+52.37.9.210 1 1 28045 20230630141822
+40.94.25.44 0 13 646604 
+107.178.235.228 1 1 28889 20230630203049
+195.188.181.2 0 2 27189 
+52.88.255.36 1 1 28045 20230630212233
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20230630 114 696 30808578 87
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 85
+15mn-30mn 1
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 30
+/ 43 1216921 39 37
+/contact-cinch-systems.html 16 410535 11 4
+/scripts/form-u2046.php 12 1536 0 8
+/citizen-thermal-printer-kit.html 7 311297 7 7
+/assets/rf-apcmb-345-nn-smoke-_carbon-monoxide-detector-installation-manual---copy.pdf 5 4510225 5 5
+/contact-us.html 4 103908 3 1
+/scripts/form-u2281.php 3 153 0 3
+/ccu-vbs.html 2 80280 2 2
+/cinch-systems-gsa-contract.html 1 18629 1 1
+/privacy-policy.html 1 25401 1 1
+/intrusion-detection-systems-input-modules.html 1 56602 1 1
+/water-sensor---wireless.html 1 23014 1 1
+/keyfob-panic---wireless.html 1 25828 1 1
+/assets/25---mss-rfs-100_300.pdf 1 409582 1 1
+/images/cinch%5flogowed2.png%3fcrc=4154990160 1 6065 1 1
+/assets/u-rf-keyfob-319-rev-2.pdf 1 135190 1 1
+/compliance.html 1 17359 1 1
+/assets/maxout-tech-line-card7_19_2022-.pdf 1 298864 0 1
+/assets/98---ds-he-motor.pdf 1 909107 1 1
+/line-card.html 1 19329 0 0
+/assets/u_rf-keyfob-319-nn-rev-4.-10_4_2021-installation-manual.pdf 1 154438 1 1
+/co-pps.html 1 44460 1 1
+/total-window-sensor---wireless.html 1 27029 1 1
+/mini-doorwindow-sensors---wireless.html 1 26136 1 1
+/assets/cinch-systems-gsa-capabilities.pdf 1 290839 1 1
+/news.html 1 21252 1 1
+/protection-inside---out.html 1 38913 1 1
+/protector-control-panel.html 1 47493 1 1
+/vbs_l-s.html 1 38208 1 1
+/about-us.html 1 24812 1 0
+END_SIDER
