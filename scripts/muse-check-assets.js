@@ -63,7 +63,7 @@ window.Muse.assets.check = function(c) {
 // Muse init function (externalized from inline script)
 var muse_init = function() {
     require.config({
-        baseUrl: ""
+        baseUrl: "scripts"
     });
     require(["jquery", "museutils", "whatinput", "jquery.watch", "jquery.musepolyfill.bgsize", "webpro", "musewpslideshow", "jquery.museoverlay", "touchswipe", "jquery.musemenu"], function(c) {
         var $ = c;
@@ -129,3 +129,16 @@ var muse_init = function() {
         })
     })
 };
+
+// Call muse_init after all dependencies are loaded
+// Wait for require.js to be available if not already loaded
+if (typeof require !== 'undefined') {
+    muse_init();
+} else {
+    // If require.js is not loaded yet, wait for it
+    document.addEventListener('DOMContentLoaded', function() {
+        if (typeof require !== 'undefined') {
+            muse_init();
+        }
+    });
+}

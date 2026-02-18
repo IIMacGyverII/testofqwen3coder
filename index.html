@@ -407,8 +407,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    
    <!-- Scripts - async for non-blocking load -->
    <script src="scripts/muse-init.js?crc=1234567890" type="text/javascript" async></script>
-   <script src="scripts/muse-check-assets.js?crc=9876543210" type="text/javascript" async></script>
-   <script src="scripts/require.js?crc=4177726516" type="text/javascript" async data-main="scripts/museconfig.js?crc=128606099" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+   <script src="scripts/require.js?crc=4177726516" type="text/javascript" data-main="scripts/museconfig.js?crc=128606099" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+   <script src="scripts/muse-check-assets.js?crc=9876543210" type="text/javascript"></script>
   </footer>
  </body>
 </html>
