@@ -1,0 +1,218 @@
+/* Responsive Styles for CINCH Systems */
+/* Mobile-first approach with breakpoints for tablets and desktops */
+
+/* =========================================
+   Mobile Styles (max-width: 480px)
+   ========================================= */
+
+@media screen and (max-width: 480px) {
+  /* Reset fixed widths for mobile */
+  #page {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+  
+  /* Stack columns vertically */
+  .grpelem, .colelem, .grpelem > * {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  /* Adjust header elements */
+  .site-header {
+    padding: 10px;
+  }
+  
+  #u176-5 {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+  }
+  
+  #u176 {
+    font-size: 24px !important;
+  }
+  
+  /* Navigation - simplified for mobile */
+  #menuu1372 {
+    display: flex !important;
+    flex-direction: column !important;
+    background: #1A2836 !important;
+  }
+  
+  .MenuItemContainer {
+    width: 100% !important;
+  }
+  
+  .MenuItemLabel {
+    padding: 12px 15px !important;
+    font-size: 14px !important;
+  }
+  
+  /* Logo adjustments */
+  #u91_img {
+    max-width: 100% !important;
+    height: auto !important;
+    width: auto !important;
+  }
+  
+  /* Social icons */
+  .rounded-corners {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 10px !important;
+  }
+  
+  /* Slideshow adjustments */
+  .SSSlide img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  /* Content spacing */
+  .verticalspacer {
+    padding: 20px 10px !important;
+  }
+  
+  /* Footer adjustments */
+  .site-footer {
+    padding: 20px 10px !important;
+    text-align: center !important;
+  }
+  
+  .clearfix {
+    text-align: center !important;
+  }
+  
+  /* Buttons and links */
+  .MenuItem a, .MenuItemLabel {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+
+/* =========================================
+   Tablet Styles (481px - 1024px)
+   ========================================= */
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  #page {
+    max-width: 95% !important;
+  }
+  
+  .grpelem, .colelem {
+    max-width: 100% !important;
+  }
+  
+  #u176-5 {
+    font-size: 16px !important;
+  }
+  
+  #menuu1372 {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  
+  .MenuItemContainer {
+    flex: 1 1 auto !important;
+    min-width: 100px !important;
+  }
+  
+  .SSSlide img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* =========================================
+   Desktop Styles (1025px+)
+   ========================================= */
+
+@media screen and (min-width: 1025px) {
+  /* Restore desktop layout */
+  #page {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+  }
+  
+  /* Maintain original desktop layout */
+  .grpelem {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  
+  .SSSlide img {
+    width: 920px !important;
+    height: 319px !important;
+  }
+}
+
+/* =========================================
+   Print Styles
+   ========================================= */
+
+@media print {
+  .site-header, .site-footer, .preload_images {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  
+  a {
+    text-decoration: underline !important;
+  }
+  
+  a[href]:after {
+    content: " (" attr(href) ")" !important;
+  }
+}
+
+/* =========================================
+   High DPI / Retina Displays
+   ========================================= */
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Add high-resolution image support */
+  .museBGSize {
+    background-size: cover !important;
+  }
+}
+
+/* =========================================
+   Reduced Motion (Accessibility)
+   ========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto !important;
+  }
+}
+
+/* =========================================
+   Dark Mode Support
+   ========================================= */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a !important;
+    color: #e0e0e0 !important;
+  }
+  
+  .site-header {
+    background-color: #2d2d2d !important;
+  }
+  
+  a:link {
+    color: #4da6ff !important;
+  }
+}

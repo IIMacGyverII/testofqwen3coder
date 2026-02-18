@@ -1,0 +1,20 @@
+# Robots.txt for CINCH Systems
+# https://www.cinchsystems.com
+
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /scripts/
+Allow: /assets/
+Allow: /awstats/
+
+Sitemap: https://www.cinchsystems.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+# Crawl delay (optional)
+Crawl-delay: 1
